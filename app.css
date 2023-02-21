@@ -1,0 +1,117 @@
+
+.div-1 {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background: #000 url("https://static.pexels.com/photos/207529/pexels-photo-207529.jpeg") center center;
+    
+}
+
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 12px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .center {
+    color: aliceblue;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+ .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+ }
+
+ .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    opacity: .8;
+}
+
+
+.navbar-inverse {
+    background-color: rgb(109, 108, 108);
+    border-color: #000000;
+}
+
+.body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.navbar-list ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-list ul li{
+    margin-left:50px;
+}
+
+.navbar-list ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(59, 54, 54);
+    font-weight: bold;
+    display: block;
+}
+
+.d-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 30vh;
+    margin-right: 40vw;
+    margin-left: -5vw;
+    color: #fff;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  
